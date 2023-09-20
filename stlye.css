@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f0f0;
+    /* Light mode background color */
+    transition: background-color 0.3s ease;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.toggle-button {
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 100px;
+    height: 135px;
+    width: 135px;
+    cursor: pointer;
+    border: solid 1px #555;
+    background-color: #eed;
+    box-shadow: -6px 5px 15px 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: -6px 5px 15px 10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: -6px 5px 15px 10px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: -6px 5px 15px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 100px;
+}
+
+.toggle-button .icon {
+
+    font-size: 110px;
+}
+
+/* Styles for dark mode */
+body.dark-mode {
+    background-color: #333;
+    box-shadow: -6px 5px 15px 10px rgba(238, 228, 228, 0.6);
+    -moz-box-shadow: -6px 5px 15px 10px rgba(252, 252, 252, 0.6);
+    -webkit-box-shadow: -6px 5px 15px 10px rgba(253, 253, 253, 0.6);
+    -o-box-shadow: -6px 5px 15px 10px rgba(255, 255, 255, 0.6);
+    border-radius: 100px;
+    /* Dark mode background color */
+}
+
+.toggle-button.dark-mode {
+    background-color: #fffdfd;
+    border-color: #0a0a0a;
+}
